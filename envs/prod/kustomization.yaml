@@ -11,3 +11,7 @@ patches:
       name: duncans-example-deployment
       kind: Deployment
     path: version.yaml
+  - target:
+      name: duncans-example-deployment
+      kind: Deployment
+    path: redundant-servers.yaml

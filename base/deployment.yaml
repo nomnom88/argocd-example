@@ -3,7 +3,6 @@ kind: Deployment
 metadata:
   name: duncans-example-deployment
 spec:
-  revisionHistoryLimit: 1
   selector:
     matchLabels:
       app: duncans-example-app
@@ -13,7 +12,6 @@ spec:
         app: duncans-example-app
     spec:
       containers:
-        - image: duncans-example-app:2.0
-          name: duncans-example-app
+        - name: duncans-example-app
           ports:
             - containerPort: 80

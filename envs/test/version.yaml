@@ -3,9 +3,8 @@ kind: Deployment
 metadata:
   name: duncans-example-deployment
 spec:
-  replicas: 2
   template:
     spec:
       containers:
         - image: duncans-example-app:3.0
-          name: duncans-example-app 
+          name: duncans-example-app

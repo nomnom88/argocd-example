@@ -6,8 +6,8 @@ namePrefix: test-
 resources:
   - ../../base
 
-components:
-  - ../../components/f-versions
+#components:
+#  - ../../components/f-versions
 
 patches:
   - target:
