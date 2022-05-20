@@ -6,6 +6,9 @@ namePrefix: test-
 resources:
   - ../../base
 
+components:
+  - ../../components/f-versions
+
 patches:
   - target:
       name: duncans-example-deployment

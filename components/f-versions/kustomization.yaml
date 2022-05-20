@@ -1,0 +1,8 @@
+kind: Component
+apiVersion: kustomize.config.k8s.io/v1alpha1
+
+patches:
+  - target:
+      name: duncans-example-deployment
+      kind: Deployment
+    path: override-env-var.yaml

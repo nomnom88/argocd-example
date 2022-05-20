@@ -11,4 +11,4 @@ spec:
           name: duncans-example-app
           env:
             - name: APP_VERSION
-              value: Injected Override, who cares what version
+              value: F@#$ DA POLICE!!
