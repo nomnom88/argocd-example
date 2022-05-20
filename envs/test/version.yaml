@@ -7,8 +7,5 @@ spec:
   template:
     spec:
       containers:
-        - image: duncans-example-app:.0
-          name: duncans-example-app
-          env:
-            - name: APP_VERSION
-              value: Injected Override, who cares what version
+        - image: duncans-example-app:3.0
+          name: duncans-example-app 
