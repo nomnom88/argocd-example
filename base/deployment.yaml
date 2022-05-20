@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: guestbook-ui
+  name: duncans-example-deployment
 spec:
   replicas: 1
   revisionHistoryLimit: 3
   selector:
     matchLabels:
-      app: guestbook-ui
+      app: duncans-example-app
   template:
     metadata:
       labels:
-        app: guestbook-ui
+        app: duncans-example-app
     spec:
       containers:
         - image: duncans-example-app:2.0
-          name: guestbook-ui
+          name: duncans-example-app
           ports:
             - containerPort: 80
