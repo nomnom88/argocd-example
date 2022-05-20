@@ -3,6 +3,7 @@ kind: Deployment
 metadata:
   name: duncans-example-deployment
 spec:
+  replicas: 1
   selector:
     matchLabels:
       app: duncans-example-app
